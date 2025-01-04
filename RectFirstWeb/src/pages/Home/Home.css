@@ -1,0 +1,31 @@
+:root{
+    --Headingcolor:#2d465e;
+    --textcolor:#212529;
+    --accentcolor:#0d83fd;
+    --accenttranspernt:#0d83fd45;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+
+.main-section{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.classic-btn{
+    border: none;
+    border-radius: 50px;
+    padding:10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007EFF;
+}
+
+.classic-btn:hover{
+    background-color: #409FFF;
+    transition: all 0.3s;
+}

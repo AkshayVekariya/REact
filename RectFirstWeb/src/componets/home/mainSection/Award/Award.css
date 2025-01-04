@@ -1,0 +1,43 @@
+.main-award-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.main-inneraward-section {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border-radius: 20px; */
+  height: 100px;
+  margin: 20px 0;
+  padding: 40px;
+}
+.main-inneraward-section:hover .fa-Trophy span{
+    background-color: var(--accentcolor);
+    color: white;
+}
+.main-award-icon-info {
+  display: flex;
+  /* gap: 64px;  */
+}
+.fa-Trophy {
+  display: flex;
+  align-items: center;
+  margin: 15px 30px;
+  line-height: 25px;
+}
+.fa-Trophy span {
+  margin: 0 20px 0 0;
+  color: var(--accentcolor);
+  background-color: var(--accenttranspernt);
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.award-info h3{
+    color: var(--Headingcolor);
+}
+.award-info p{
+    color: var(--textcolor)
+}
